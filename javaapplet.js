@@ -4,7 +4,7 @@ import javax.swing.*;
 public class Assign7 extends JApplet implements ActionListener
 {
    public static void main(String[] args){
-	System.out.println("ActionEvent actionEvent");	
+	System.out.println("Heylozz Charishma");	
 }
  JButton firstClassButton, economyClassButton;
  JTextField displayField;
