@@ -7,15 +7,11 @@ public class Assign7 extends JApplet implements ActionListener
 	System.out.println("Heylozz Charishma");	
 }
  JButton firstClassButton, economyClassButton;
- JTextField displayField;
-   
- boolean[] seat;
-   
- int i;
-   
+ JTextField displayField;   
+ boolean[] seat;   
+ int i;   
  public void init()
- {
-   
+ {   
  Container container = getContentPane();
  container.setLayout(new FlowLayout());
    
@@ -29,10 +25,8 @@ public class Assign7 extends JApplet implements ActionListener
    
  displayField = new JTextField(20);
  displayField.setEditable(false);
- container.add(displayField);
-   
- seat = new boolean[11];
-   
+ container.add(displayField);   
+ seat = new boolean[11];   
  }
    
  public void actionPerformed(ActionEvent actionEvent)
@@ -48,8 +42,7 @@ public class Assign7 extends JApplet implements ActionListener
  reserve(false);
  displayField.setText("Seat " + i + " has been reserved");
  }
- }
-   
+ }   
  int reserve(boolean firstClass)
  {
  if(firstClass = true)
