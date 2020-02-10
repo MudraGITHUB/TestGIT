@@ -3,7 +3,9 @@ import java.awt.event.*;
 import javax.swing.*;
 public class Assign7 extends JApplet implements ActionListener
 {
-   
+   public static void main(String[] args){
+	System.out.println("ActionEvent actionEvent");	
+}
  JButton firstClassButton, economyClassButton;
  JTextField displayField;
    
